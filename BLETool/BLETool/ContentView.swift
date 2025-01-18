@@ -1,0 +1,24 @@
+//
+//  ContentView.swift
+//  BLETool
+//
+//  Created by 蔡青峰 on 2025/1/18.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
