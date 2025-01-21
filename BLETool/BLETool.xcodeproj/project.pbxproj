@@ -29,9 +29,22 @@
 		7522BA732D3BDDDC000C0C7A /* BLEToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7576F2CD2D3FD09E00337587 /* Exceptions for "BLETool" folder in "BLETool" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7522BA582D3BDDDB000C0C7A /* BLETool */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7522BA5B2D3BDDDB000C0C7A /* BLETool */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7576F2CD2D3FD09E00337587 /* Exceptions for "BLETool" folder in "BLETool" target */,
+			);
 			path = BLETool;
 			sourceTree = "<group>";
 		};
@@ -399,8 +412,10 @@
 				DEVELOPMENT_TEAM = 55DT694GL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLETool/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Scan BLE devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Scan BLE device";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -428,8 +443,10 @@
 				DEVELOPMENT_TEAM = 55DT694GL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLETool/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Scan BLE devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Scan BLE device";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
